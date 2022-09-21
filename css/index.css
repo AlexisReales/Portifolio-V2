@@ -1,0 +1,101 @@
+body{
+    margin: auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.containersm{
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+}
+.image{
+    width: 190px;
+    height: 190px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+    border-radius: 50%;
+}
+.image img{
+    position: center;
+    bottom: 0;
+    width: 100%;
+}
+h2{
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+.dados{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+table{
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border: none;
+}
+.h2table{
+    padding: 20px;
+}
+footer{
+    margin: auto;
+    text-align: center;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    vertical-align: middle;
+  }
+.containerd{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(181, 174, 174);
+    color: black;
+}
+header{
+    background-color: rgb(26, 24, 24);
+    padding: 5px;
+}
+nav{
+    color: black;
+    text-align: center;
+    padding: 1px;
+    width: 500px;
+    height: 35px;
+    border-radius: 30px;
+    text-align: center;
+}
+li a{
+      color: black;
+      text-decoration: none;
+      background-color: white;
+      border-radius: 5px;
+      padding: 2px;
+}
+li a:hover{
+    background-color: rgb(220, 220, 220)
+}
+.sites{
+    padding: 10px;
+    list-style: none;
+}
+nav ul{
+    padding: 0;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+.containeri{
+    background-color: rgb(181, 174, 174);
+    padding: 1px;
+    color: black;
+}
+footer{
+    background-color: rgb(26, 24, 24);
+    padding: 1px;
+}
